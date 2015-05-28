@@ -1,65 +1,14 @@
-html {
-	width: 100%;
-}
-
 body {
-  font-family: 'Open Sans', sans-serif;
-  text-align:center;
+	background: url(background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
 }
 
-h1 {
-  font-weight: 300;
-  font-size: 56px;
-  padding-top: 60px;
-}
-
-p {
-	font-weight: 400;
-}
-
-ul {
-	list-style-type: none;
-}
-
-img {
-	height: 100px;
-	width: 100px;	
-}
-
-button:hover {
-	color:#5E5E5E;
-}
-
-.finalist {
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-bottom: 25px;
-}
-
-.header {
-	float: center;
-}
-
-.girls .header h2 {
-	color: #FFA800;
-}
-
-.boys .header h2 {
-	color: #50BBFF;
-}
-
-.boys {
-	float: left;
-}
-
-.girls {
-	float: right;
-}
-
-.boys table {
-	padding-left: 150px;
-}
-
-.girls table {
-	padding-right: 150px;
+.main-content h1 {
+	font-weight: 600;
+	color: white;
+	text-align: center;
 }
