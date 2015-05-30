@@ -5,10 +5,40 @@ body {
  	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	width: 100%;
 }
 
-.main-content h1 {
-	font-weight: 600;
+h1 {
+	font-weight: 400;
 	color: white;
-	text-align: center;
+	padding-top: 10%;
+}
+
+.login {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.login ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.login input{
+	border: 2px solid #AFAFAF;
+	background-color: transparent;
+	width: 250px;
+	height: 30px;
+	color: #AFAFAF;
+}
+
+.login button{
+	border: none;
+	background-color: #E6A300;
+	color: white;
+	width: 254px;
+	height: 40px;
 }

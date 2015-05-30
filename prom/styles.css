@@ -28,6 +28,7 @@ img {
 
 button:hover {
 	color:#5E5E5E;
+	cursor: pointer;
 }
 
 .finalist {
