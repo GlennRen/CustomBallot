@@ -1,44 +1,16 @@
 body {
-	background: url(background.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
-	background-size: cover;
 	font-family: 'Titillium Web', sans-serif;
 	text-align: center;
 	width: 100%;
+	background-color: #FAFAFA;
 }
 
 h1 {
 	font-weight: 400;
-	color: white;
+	color: #212121;
 	padding-top: 10%;
 }
 
-.login {
-	position: relative;
-	display: block;
-	width: 100%;
-}
 
-.login ul {
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
-}
 
-.login input{
-	border: 2px solid #AFAFAF;
-	background-color: transparent;
-	width: 250px;
-	height: 30px;
-	color: #AFAFAF;
-}
 
-.login button{
-	border: none;
-	background-color: #E6A300;
-	color: white;
-	width: 254px;
-	height: 40px;
-}
